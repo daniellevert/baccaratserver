@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestBaccaratDealer" time="0.228" tests="128" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer/target/test-classes:/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer/target/classes:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/dan/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/dan/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/dan/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/dan/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/dan/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/dan/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/dan/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/dan/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/dan/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/dan/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/dan/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/dan/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer/target/surefire/surefirebooter8154763506511029456.jar /Users/dan/Documents/CS342/dlever2Project3/BaccaratServer/target/surefire 2020-12-07T18-44-37_655-jvmRun1 surefire15807042540629410806tmp surefire_017379993507797422626tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer/target/test-classes:/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer/target/classes:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/dan/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/dan/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/dan/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/dan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/dan/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/dan/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/dan/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/dan/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/dan/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/dan/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/dan/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/dan/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/dan/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dan"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer/target/surefire/surefirebooter8154763506511029456.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.1+14"/>
+    <property name="user.name" value="dan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/dan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/6h/ttywn7qs5yz8m0wdr37p5bv00000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/dan/Documents/CS342/dlever2Project3/BaccaratServer"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/dan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="14.0.1+14"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testBaccaratDealerDealHandEmpty" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[1]" classname="TestBaccaratDealer" time="0.024"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[2]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[3]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[4]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[5]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[6]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[7]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[8]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[9]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[10]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[11]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[12]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesSpades{int}[13]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerDeckSizeAfterDeal" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDeckSizeAfterDraw" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[1]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[2]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[3]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[4]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[5]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[6]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[7]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[8]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[9]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[10]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[11]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[12]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesClubs{int}[13]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDealHandSize" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[1]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[2]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[3]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[4]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[5]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[6]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[7]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[8]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[9]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[10]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[11]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[12]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesDiamonds{int}[13]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDrawOneSize" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDeckSizeFullDeck" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[1]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[2]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[3]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[4]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[5]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[6]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[7]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[8]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[9]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[10]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[11]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[12]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesDiamonds{int}[13]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDealHandREmoveFromDeckSize" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerDealHandREmoveFromDeckValues" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerConstructor" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDrawOneTopOfDeck" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDeckSizeEmptyDeck" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDrawOneEmpty" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckNotEmpty" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckLen52" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckNotEmpty" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckNotEqual" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDealHandFirstElemSuite" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerDealHandFirstElemValue" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[1]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[2]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[3]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[4]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[5]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[6]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[7]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[8]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[9]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[10]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[11]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[12]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesClubs{int}[13]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckEmpty" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[1]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[2]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[3]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[4]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[5]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[6]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[7]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[8]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[9]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[10]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[11]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[12]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesHearts{int}[13]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDealHandSecondElemSuite" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDealHandSecondElemValue" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[1]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[2]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[3]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[4]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[5]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[6]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[7]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[8]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[9]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[10]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[11]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[12]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckValuesSpades{int}[13]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerShuffleDeckSize" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[1]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[2]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[3]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[4]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[5]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[6]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[7]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[8]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[9]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[10]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[11]" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[12]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerGenerateDeckValuesHearts{int}[13]" classname="TestBaccaratDealer" time="0.001"/>
+  <testcase name="testBaccaratDealerDrawOneNonEmptySuite" classname="TestBaccaratDealer" time="0"/>
+  <testcase name="testBaccaratDealerDrawOneNonEmptyValue" classname="TestBaccaratDealer" time="0.001"/>
+</testsuite>
